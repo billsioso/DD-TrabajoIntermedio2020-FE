@@ -1,0 +1,5 @@
+1)  Pegué ambas imágenes "desktop version and mobile version" en un archivo de paint para decidir como maquetarlo 
+    (en la carpeta static se encuentra el archivo analysis.png).
+
+2) Les doy a cada sección un nombre aproximado que podria llegar a usarse como clases.
+3)
