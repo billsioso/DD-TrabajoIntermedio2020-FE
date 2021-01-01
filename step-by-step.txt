@@ -13,3 +13,18 @@
    repo-content     repo-content    about
    readme           readme          about
    footer           footer          footer
+
+
+5) codigo reutilizable:
+    -container de imagen de perfil y de github iguales
+    - botones desktop y mobile:
+       todo igual en : 
+        border radius;
+        color de fondo;
+        color de font;
+        font family;
+        border;
+
+    -botones desktop:
+        3 botones de username iguales;
+        4 botones de file navigation iguales;
