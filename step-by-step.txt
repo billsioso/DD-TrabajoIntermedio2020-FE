@@ -2,4 +2,14 @@
     (en la carpeta static se encuentra el archivo analysis.png).
 
 2) Les doy a cada sección un nombre aproximado que podria llegar a usarse como clases.
-3)
+3) Si le agrego un grid template area a todo podria ubicar facilmente la sección about al costado cuando es desktop.
+4) Voy a arrancar como mobile first pero voy pensando como quedaria en desktop.
+   Mobile no hago nada, que caiga uno abajo del otro (1 columna de grid)
+   Desktop  (3 columnas):
+   header           header          header
+   username         username        username
+   sidenavbar       sidenavbar      sidenavbar
+   file-nav         file-nav        about
+   repo-content     repo-content    about
+   readme           readme          about
+   footer           footer          footer
