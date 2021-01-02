@@ -32,3 +32,5 @@
 
 6) Arranco con el maquetado html , primero lo general para que sea responsive utilizando grid template area.
    Trataré de seguir la metodología BEM;
+
+7) realizo el header usando flex (me resulto mas sencillo), space between and padding;
