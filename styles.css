@@ -33,29 +33,29 @@ li{
     border:1px solid rgba(27, 31, 35, 0.15);
     border-radius: 6px;
     background: #FAFBFC;
-    padding: 3px 12px;  
+    padding: 3px 12px;
+    display: flex;
+    justify-content:center;
+    align-items: center;  
 }
 
 .btn-mobile{
     width: 148px;
     height: 24px;
 }
-/*check btn-Unstar and btn-Unwatch, they have the same code*/
+/*check btn-Unstar and btn-Unwatch, they have the same code*/ /*done*/
+/* I sent the flex positioning to the general btn class*/
 .btn-Unstar{
     grid-column: span 2;
-    grid-row-start:2;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    
-    
+    grid-row-start:2;  
 }
 .btn-Unwatch{
     grid-column: span 2;
     grid-row-start:2;
-    display: flex;
-    justify-content:center;
-    align-items: center;
+    
+}
+.btn--file-navigation{
+    padding: 5px 1rem;
 }
 /*check btn-Unstar and btn-Unwatch, they have the same code*/
 
@@ -92,4 +92,10 @@ svg{
     overflow-y:hidden;
     background:#FAFBFC;
     
+}
+
+.file-navigation-section{
+    display: flex;
+    justify-content:space-between;
+    padding:1rem;
 }

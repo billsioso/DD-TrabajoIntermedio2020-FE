@@ -48,7 +48,12 @@
    En la pagina oficial usa anchor para contener los spans dentro de un ul con sus respectivos li (queda mas readable!). Veo que de esa manera se ahorra un par de cosas, al ser elementos inline.
    Era overflow-x y darle al overflow y hidden.
 
-10) creo que podria unir algunas propiedades bajo la class section, por ejemplo:
+10) Creo que podria unir algunas propiedades bajo la class section, por ejemplo:
    padding: 1rem;
     Algunas sections tienen fondo gris, por ahí hacer la variable de colores y hacer una clase onda... gris:
      background: ... ;
+
+11) File navigation con un space between creo q se logra. En si, necesito colocar 2 bloques uno en cada esquina. En desktop lo mismo,
+    solo que aparecen mas opciones, pero el layout es el mismo. Puedo reutilizar codigo de botón general.Me doy cuenta que cada vez que 
+    escriben texto en un contenedor usa span así no tiene que lidiar con los problemas de un elemento en bloque xD.
+12)
