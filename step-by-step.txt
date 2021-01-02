@@ -28,3 +28,7 @@
     -botones desktop:
         3 botones de username iguales;
         4 botones de file navigation iguales;
+        el de code tiene color verde;
+
+6) Arranco con el maquetado html , primero lo general para que sea responsive utilizando grid template area.
+   Trataré de seguir la metodología BEM;

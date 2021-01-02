@@ -1,0 +1,65 @@
+@media only screen and (min-width: 600px) {
+
+    body{
+        display: grid;
+        grid-template-areas:  " header           header          header"
+                            " username         username        username"
+                            " sidenavbar       sidenavbar      sidenavbar"
+                            " file-nav         file-nav        about"
+                            " repo-content     repo-content    about"
+                            " readme           readme          about"
+                            " footer           footer          footer";
+
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: ;
+    }
+
+    header{
+        border: 1px solid black;
+        padding: 1rem;
+        grid-area: header;
+    }
+
+    .profile-section{
+        border: 1px solid black;
+        padding: 1rem;
+        grid-area: username;
+    }
+
+    .side-navbar-section{
+        border: 1px solid black;
+        padding: 1rem;
+        grid-area: sidenavbar;
+    }
+
+    .file-navigation-section{
+        border: 1px solid black;
+        padding: 1rem;
+        grid-area: file-nav;
+    }
+    .repository-content-section{
+        border: 1px solid black;
+        padding: 1rem;
+        grid-area: repo-content;
+    }
+
+    .readme-section{
+        border: 1px solid black;
+        padding: 1rem;
+        grid-area: readme;
+    }
+
+    .about-section{
+        border: 1px solid black;
+        padding: 1rem;
+        grid-area:about;
+    }
+
+    footer{
+        border: 1px solid black;
+        padding: 1rem;
+        grid-area:footer;
+    }
+
+
+}
