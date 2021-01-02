@@ -40,5 +40,9 @@
 8) Profile section. Usé grid, pensando en futuro que se invierte algun que otro botón (esta parte cuando llegue a desktop la voy a tener 
     que modificar un poco).
    Ya hice la clase generica de btn y agrege la de btn mobile. Pero con btn los botones tanto de mobile como de desktop tienen estas 
-   propiedades;
+    propiedades;
    
+9) Arranco con sidenavbar. Me di cuenta que hice el esqueleto general pero no puse nada adentro, prefiero tomarlo como detalle e
+    ir resolviendo de arriba hacia abajo como si fueran secciones.
+    este navbar no tiene collapse , supongo que tendra que ver algo con overflow to be able to move it to the sides.(es momento de probar e investigar).
+   En la pagina oficial usa anchor para contener los spans dentro de un ul con sus respectivos li (queda mas readable!). Veo que de esa manera se ahorra un par de cosas, al ser elementos inline.
