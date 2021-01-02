@@ -11,7 +11,8 @@
                             " footer           footer          footer";
 
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: ;
+        grid-template-rows: 64px;
+        
     }
 
     header{
