@@ -29,6 +29,14 @@ h1{
     width: 148px;
     height: 24px;
 }
+.btn-Unstar{
+    grid-column: span 2;
+    grid-row-start:2;
+}
+.btn-Unwatch{
+    grid-column: span 2;
+    grid-row-start:2;
+}
 
 header{
     height: 64px;
@@ -49,4 +57,5 @@ header{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(2,1fr);
+    gap: 1rem;
 }
