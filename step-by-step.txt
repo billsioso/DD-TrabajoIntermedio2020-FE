@@ -63,3 +63,6 @@
 
 13)I'll start with readme section
 14) changing nickname to my actual name in git
+15)  in desktop version:  readme section has a border for all sides but in mobile only top and bottom.
+16) tengo que ver si el padding lo puedo reutilizar de alguna manera o seria mas difícil de leer solo por ahorrar algunas lineas de codigo;
+    Hay que ver como se comporta en desktop;

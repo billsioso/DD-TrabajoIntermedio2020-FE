@@ -18,6 +18,10 @@ a{
 h1{
     font-size:16px;
 }
+h2{
+    margin: 0;
+    font-size: 14px;
+}
 ul{
     display: flex;
     margin: 0;
@@ -131,4 +135,26 @@ svg{
     background:none;
     border: none;
     color: #0366D6;
+}
+
+.readme-section{
+    border-top: 1px solid #e1e4e8;
+    border-bottom: 1px solid #e1e4e8;
+    
+}
+.readme-section--header{
+    display: flex ;
+    justify-content:space-between;
+    padding: 1rem;  
+    align-items: center;
+}
+
+.readme-section--body{
+    padding:1rem 2rem;
+}
+.readme-section--body--title{
+    border-bottom: 1px solid #e1e4e8;
+    padding-bottom:1rem;
+    font-size:32px;
+    margin:0;
 }
