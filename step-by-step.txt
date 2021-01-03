@@ -56,4 +56,7 @@
 11) File navigation con un space between creo q se logra. En si, necesito colocar 2 bloques uno en cada esquina. En desktop lo mismo,
     solo que aparecen mas opciones, pero el layout es el mismo. Puedo reutilizar codigo de botón general.Me doy cuenta que cada vez que 
     escriben texto en un contenedor usa span así no tiene que lidiar con los problemas de un elemento en bloque xD.
-12) f
+
+12) repository content. Interesante.. aplica border-radius solo a top. It's time to google.
+    jaja, acostumbrado a poner una sola propiedad , tiene 4 propiedades porque tiene 4 esquinas y empieza por la top-left.
+    Igual se puede usar con 1,2,3 o 4 propiedades

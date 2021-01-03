@@ -106,7 +106,7 @@ svg{
 .repository-content-header{
     display: flex;
     justify-content:space-between;
-    border-radius:10px;
+    border-radius:10px 10px 0 0;
     background: #f1f8ff;
     border: 1px solid #c8e1ff;
     padding: 1rem;
