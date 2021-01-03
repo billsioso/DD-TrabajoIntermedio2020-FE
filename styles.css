@@ -158,3 +158,39 @@ svg{
     font-size:32px;
     margin:0;
 }
+
+.about-section{
+    padding:1rem;
+}
+.about-section--release--packages--environments{
+    border-bottom: 1px solid #e1e4e8;
+    padding:1rem 0;
+}
+.about-section--release--packages--environments h2, h2>a{
+    font-size:16px;
+    color: #24292E;
+}
+.about-section--release--packages--environments p{
+    margin:0;
+}
+.about-section--release--packages--environments h2{
+    margin-bottom: 1rem;
+}
+.progress-bar{
+    display: flex;
+    justify-content:space-between;
+    
+    border-radius: 10px;
+}
+.progress-bar--html{ 
+    background: #E34C26;
+    border-radius: 10px 0px 0px 10px;
+    padding: .2rem;
+    width:80%
+}
+.progress-bar--css{ 
+    background: #563d7c;
+    border-radius: 0px 10px 10px 0px;
+    padding: .2rem;
+    width:19.6%
+}

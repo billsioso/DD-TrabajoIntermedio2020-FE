@@ -66,3 +66,7 @@
 15)  in desktop version:  readme section has a border for all sides but in mobile only top and bottom.
 16) tengo que ver si el padding lo puedo reutilizar de alguna manera o seria mas difícil de leer solo por ahorrar algunas lineas de codigo;
     Hay que ver como se comporta en desktop;
+
+18) About section : desktop and mobile are similar . mobile version doesn't have one part. I might add a display none as a default or 
+    could I solve this with grid? I'll solve it later .
+    
