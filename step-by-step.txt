@@ -62,3 +62,4 @@
     Igual se puede usar con 1,2,3 o 4 propiedades (nice shapes).
 
 13)I'll start with readme section
+14) changing nickname to my actual name in git
