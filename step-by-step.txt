@@ -61,4 +61,4 @@
     jaja, acostumbrado a poner una sola propiedad , tiene 4 propiedades porque tiene 4 esquinas y empieza por la top-left.
     Igual se puede usar con 1,2,3 o 4 propiedades (nice shapes).
 
-13)
+13)I'll start with readme section
