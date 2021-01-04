@@ -81,3 +81,5 @@
 25) padding to the sides must be 2 rem 
 26) I finished header for both desktop and mobile . I used grid-area and justify-self, align-self to position them. to make content appear and disappear 
     I used display none and flex, I also added variables for the colors;
+
+27) Profile section is next. I'll edit the rethinking_desktop.jpg to plan how to make it work for both, mobile and desktop.
