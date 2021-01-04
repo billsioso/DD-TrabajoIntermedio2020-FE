@@ -73,3 +73,6 @@
 19) I finished about section , thinking about footer. I think I could position them in 3 boxes and use flex. no biggy. the img dissapears
     in mobile version and I have to remember to add 1 grid row to readme to leave a space below it;
 20) footer , done! version 1 mobile finished;
+21) adding variables to colors;
+22) starting with desktop styling. I need paintbrush again to compare and see how to fix everything.
+23) I'm starting with header. I always prefer using grid area instead of plain grid... the names make the code much more readable.

@@ -1,4 +1,17 @@
 @import url("desktop.css");
+:root{
+    --blue: #0366D6;
+    --light-blue: #f1f8ff;
+    --green: #2EA44F;
+    --orange: #E34C26;
+    --purple:#563D7C;
+    /*from lighter to darker*/
+    --grey-1: #FAFBFC;
+    --grey-2: #F6F8FA;
+    --grey-3:#6A737D;
+    --black:#24292E;
+
+}
 
 *{
     box-sizing: border-box;
@@ -13,7 +26,7 @@ html body{
 }
 a{
     text-decoration:none;
-    color:#0366D6;
+    color:var(--blue);
 }
 h1{
     font-size:16px;
@@ -43,7 +56,7 @@ ul{
 .btn{
     border:1px solid rgba(27, 31, 35, 0.15);
     border-radius: 6px;
-    background: #FAFBFC;
+    background: var(--grey-1);
     padding: 3px 12px;
     display: flex;
     justify-content:center;
@@ -72,12 +85,24 @@ ul{
 
 header{
     height: 64px;
-    background: #24292E;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background: var(--black);
     padding:1rem;
+    display: grid;
+        grid-template-areas:  " header-collapsible           header-octocat          header-bell";
+        grid-template-columns: repeat(3, 1fr);
+        
 }
+.header-collapsible{
+    grid-area: header-collapsible;
+}
+.header-octocat{
+    grid-area: header-octocat;
+}
+.header-bell{
+    grid-area:header-bell;
+}
+
+
 svg{
     margin-right: 4px;
 }
@@ -87,7 +112,7 @@ svg{
 .profile-section{
     padding:1rem 1rem 0 1rem;
     
-    background:#FAFBFC;
+    background:var(--grey-1);
 }
 .profile-action-buttons{
     display: grid;
@@ -102,7 +127,7 @@ svg{
     height: 48px;
     overflow-x:auto;
     overflow-y:hidden;
-    background:#FAFBFC;
+    background:var(--grey-1);
     
 }
 
@@ -119,7 +144,7 @@ svg{
     display: flex;
     justify-content:space-between;
     border-radius:10px 10px 0 0;
-    background: #f1f8ff;
+    background: var(--light-blue);
     border: 1px solid #c8e1ff;
     padding: 1rem;
 }
@@ -134,14 +159,14 @@ svg{
     display: flex;
     justify-content:center;
     padding: 0.5rem 1rem;
-    border: 0.5px solid #f1f8ff;
+    border: 0.5px solid var(--light-blue);
     border-radius: 0 0 10px 10px;
     border-top:0;
 }
 .view-code-button{
     background:none;
     border: none;
-    color: #0366D6;
+    color: var(--blue);
 }
 
 .readme-section{
@@ -175,7 +200,7 @@ svg{
 }
 .about-section--release--packages--environments h2, h2>a{
     font-size:16px;
-    color: #24292E;
+    color: var(--black);
 }
 .about-section--release--packages--environments p{
     margin:0;
@@ -190,13 +215,13 @@ svg{
     border-radius: 10px;
 }
 .progress-bar--html{ 
-    background: #E34C26;
+    background: var(--orange);
     border-radius: 10px 0px 0px 10px;
     padding: .2rem;
     width:80%
 }
 .progress-bar--css{ 
-    background: #563d7c;
+    background: var(--purple);
     border-radius: 0px 10px 10px 0px;
     padding: .2rem;
     width:19.6%
