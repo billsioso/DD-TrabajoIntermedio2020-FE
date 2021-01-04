@@ -20,6 +20,30 @@
         padding: 1rem;
         grid-area: header;
         grid-template-areas:  "header-octocat      header-collapsible         header-bell";
+        color: #FFF;
+    }
+
+    header ul li{
+        padding:0.5rem;
+    }
+    header ul li a{
+        color: #FFF;
+        font-size:14px;
+        font-weight: 600;
+    }
+
+    .header-octocat{
+        justify-self: flex-start;
+        display: flex;
+    }
+    .header-collapsible{
+        display: flex;
+    }
+    .header-bell{
+        display: flex;
+    }
+    .collapsible-icon{
+        display:none;
     }
 
     .profile-section{

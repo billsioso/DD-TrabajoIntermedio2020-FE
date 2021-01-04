@@ -78,3 +78,4 @@
 23) I'm starting with header. I always prefer using grid area instead of plain grid... the names make the code much more readable.
 24) I had to create a layout.css to import css files in order. I was having a conflict with grid in desktop version because I was importing
     the desktop.css in the styles.css (mobile)
+25) padding to the sides must be 2 rem
