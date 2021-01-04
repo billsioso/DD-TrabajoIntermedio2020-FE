@@ -36,12 +36,22 @@
         justify-self: flex-start;
         display: flex;
     }
+    .header-octocat form{
+        display:flex;
+    }
     .header-collapsible{
         display: flex;
+    }
+    .header-collapsible ul{
+        display:flex
     }
     .header-bell{
         display: flex;
     }
+    .header-bell--desktop-icons{
+        display:flex;
+    }
+    
     .collapsible-icon{
         display:none;
     }
