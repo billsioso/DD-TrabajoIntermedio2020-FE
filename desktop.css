@@ -19,6 +19,7 @@
         border: 1px solid black;
         padding: 1rem;
         grid-area: header;
+        grid-template-areas:  "header-octocat      header-collapsible         header-bell";
     }
 
     .profile-section{
