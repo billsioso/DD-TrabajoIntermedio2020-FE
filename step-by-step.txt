@@ -69,4 +69,6 @@
 
 18) About section : desktop and mobile are similar . mobile version doesn't have one part. I might add a display none as a default or 
     could I solve this with grid? I'll solve it later .
-    
+
+19) I finished about section , thinking about footer. I think I could position them in 3 boxes and use flex. no biggy. the img dissapears
+    in mobile version and I have to remember to add 1 grid row to readme to leave a space below it;
