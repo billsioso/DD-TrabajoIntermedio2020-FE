@@ -94,12 +94,17 @@ header{
 }
 .header-collapsible{
     grid-area: header-collapsible;
+    align-self: center;
 }
 .header-octocat{
     grid-area: header-octocat;
+    align-self: center;
+    justify-self:center;
 }
 .header-bell{
     grid-area:header-bell;
+    align-self: center;
+    justify-self:end;
 }
 
 
