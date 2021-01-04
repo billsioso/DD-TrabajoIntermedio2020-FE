@@ -22,14 +22,21 @@ h2{
     margin: 0;
     font-size: 14px;
 }
+li{
+    list-style:none;
+}
 ul{
     display: flex;
-    margin: 0;
-    padding: 0;     
+    
 }
-li{
+
+.side-navbar-section ul{
+    margin: 0;
+    padding: 0; 
+        
+}
+.side-navbar-section li{
     display: flex;
-    list-style:none;
     padding:0 1rem;    
     
 }
@@ -193,4 +200,24 @@ svg{
     border-radius: 0px 10px 10px 0px;
     padding: .2rem;
     width:19.6%
+}
+footer{
+    padding:1rem;
+    padding-bottom:3rem;
+    
+}
+
+footer ul{
+    flex-wrap:wrap;
+    padding:0;
+    margin:0;
+    
+}
+
+footer ul li{
+    margin: 0 0.5rem;
+    font-size:12px;
+}
+.octicon-footer{
+    display:none;
 }
