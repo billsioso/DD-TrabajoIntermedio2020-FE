@@ -13,8 +13,9 @@
     
     header{
         border: 1px solid black;
-        padding: 1rem;       
+        padding: 0 2rem;       
         grid-template-areas:  "header-octocat      header-collapsible         header-bell";
+        grid-template-rows: 62px;
         color: #FFF;
     }
 

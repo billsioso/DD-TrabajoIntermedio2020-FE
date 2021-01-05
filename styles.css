@@ -87,24 +87,26 @@ ul{
 /*check btn-Unstar and btn-Unwatch, they have the same code*/
 
 header{
-    height: 64px;
+    
     background: var(--black);
-    padding:1rem;
+    padding: 0 1rem;
     display: grid;
         grid-template-areas:  " header-collapsible           header-octocat          header-bell";
         grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 64px;
+    align-items: center;
         
 }
 .header-collapsible{
     grid-area: header-collapsible;
-    align-self: center;
+    
 }
 .header-collapsible ul{
     display:none;
 }
 .header-octocat{
     grid-area: header-octocat;
-    align-self: center;
+    
     justify-self:center;
 }
 .header-octocat form{
@@ -112,7 +114,7 @@ header{
 }
 .header-bell{
     grid-area:header-bell;
-    align-self: center;
+    
     justify-self:end;
 }
 .header-bell--desktop-icons{
