@@ -3,11 +3,17 @@
     .desktop-main-view{
         display: flex;
     }
+    .desktop-leftside{
+        width: 80%;
+        padding: 1rem;
+    }
+    .desktop-rightside{
+        
+    }
     
     header{
         border: 1px solid black;
-        padding: 1rem;
-        
+        padding: 1rem;       
         grid-template-areas:  "header-octocat      header-collapsible         header-bell";
         color: #FFF;
     }
@@ -47,8 +53,7 @@
 
     .profile-section{
         
-        padding: 1rem;
-        grid-area: username;
+        padding: 1rem;    
         display: flex;
         justify-content: space-between;
     }
@@ -65,37 +70,36 @@
 
     .side-navbar-section{
         
-        padding: 1rem;
-        grid-area: sidenavbar;
+        padding: 1rem;   
     }
 
     .file-navigation-section{
         
         padding: 1rem;
-        grid-area: file-nav;
     }
     .repository-content-section{
         
         padding: 1rem;
-        grid-area: repo-content;
+        
     }
 
     .readme-section{
-        
-        padding: 1rem;
-        grid-area: readme;
+        border-radius:10px;
+        border: 1px solid #e1e4e8;
+        margin: 1rem;
+        padding:1rem;
+       
     }
+    
 
-    .about-section{
-        
-        padding: 1rem;
-        grid-area:about;
+    .about-section{   
+        padding: 1rem;    
     }
 
     footer{
         
         padding: 1rem;
-        grid-area:footer;
+        
     }
 
 
