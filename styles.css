@@ -127,7 +127,7 @@ svg{
     fill:white;
 }
 .profile-section{
-    padding:1rem 1rem 0 1rem;
+    padding:1rem ;
     
     background:var(--grey-1);
 }
@@ -213,7 +213,7 @@ svg{
 }
 .about-section--release--packages--environments{
     border-bottom: 1px solid #e1e4e8;
-    padding:1rem 0;
+    padding:1.5rem 0;
 }
 .about-section--release--packages--environments h2, h2>a{
     font-size:16px;

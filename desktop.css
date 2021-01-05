@@ -8,7 +8,7 @@
         padding: 1rem;
     }
     .desktop-rightside{
-        
+        padding-right:1rem;
     }
     
     header{
@@ -53,7 +53,7 @@
 
     .profile-section{
         
-        padding: 1rem;    
+            
         display: flex;
         justify-content: space-between;
     }
@@ -95,10 +95,22 @@
     .about-section{   
         padding: 1rem;    
     }
+    .about-section p{
+        padding-bottom:1rem;
+    }
 
     footer{
-        
+        display:flex;
+        justify-content:space-between;
         padding: 1rem;
+        
+    }
+    .octicon-footer{
+        display:flex;
+    } 
+    
+    footer ul li{
+        margin: 0 2rem;
         
     }
 
