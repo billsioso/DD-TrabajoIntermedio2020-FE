@@ -1,24 +1,13 @@
 @media only screen and (min-width: 600px) {
 
-    body{
-        display: grid;
-        grid-template-areas:  " header           header          header"
-                            " username         username        username"
-                            " sidenavbar       sidenavbar      sidenavbar"
-                            " file-nav         file-nav        about"
-                            " repo-content     repo-content    about"
-                            " readme           readme          about"
-                            " footer           footer          footer";
-
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 64px;
-        
+    .desktop-main-view{
+        display: flex;
     }
-
+    
     header{
         border: 1px solid black;
         padding: 1rem;
-        grid-area: header;
+        
         grid-template-areas:  "header-octocat      header-collapsible         header-bell";
         color: #FFF;
     }
@@ -57,42 +46,54 @@
     }
 
     .profile-section{
-        border: 1px solid black;
+        
         padding: 1rem;
         grid-area: username;
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile-action-buttons{
+        display: flex;
+        flex-direction:row-reverse;
+           
+    }
+    
+    
+    .stars-counter{
+        display:none;
     }
 
     .side-navbar-section{
-        border: 1px solid black;
+        
         padding: 1rem;
         grid-area: sidenavbar;
     }
 
     .file-navigation-section{
-        border: 1px solid black;
+        
         padding: 1rem;
         grid-area: file-nav;
     }
     .repository-content-section{
-        border: 1px solid black;
+        
         padding: 1rem;
         grid-area: repo-content;
     }
 
     .readme-section{
-        border: 1px solid black;
+        
         padding: 1rem;
         grid-area: readme;
     }
 
     .about-section{
-        border: 1px solid black;
+        
         padding: 1rem;
         grid-area:about;
     }
 
     footer{
-        border: 1px solid black;
+        
         padding: 1rem;
         grid-area:footer;
     }

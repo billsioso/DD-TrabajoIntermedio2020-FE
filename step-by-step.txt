@@ -83,3 +83,10 @@
     I used display none and flex, I also added variables for the colors;
 
 27) Profile section is next. I'll edit the rethinking_desktop.jpg to plan how to make it work for both, mobile and desktop.
+
+28) I used display flex for both profile section and action buttons.
+
+29) action buttons have a different position. from: "fork" "Unstar" "Unwatch" to: "Unwatch" "Unstar" "fork" 
+    (el primero en el ultimo.. un row reverse? XD . Me amo).
+30) I think that the general layout should not be applied to the whole body of the html. I think it would be better to apply grid or flex
+    only to the areas that are affected. I decided to create  containers like this ---> ((file navigation, repository and readme) ,(about)).
