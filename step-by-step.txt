@@ -93,3 +93,4 @@
 31) When the footer can not fit in one line, it takes de mobile appareance.//I have to add this behaviour , It has a 3rdmedia query in between mobile and desktop.
 32) first version for both desktop and mobile done! It's time to work with details and later with nightmode.
 33) general padding for mobile is 1rem and for desktop 2 rem.
+34) round-corners class (I should make one)

@@ -99,6 +99,7 @@ header{
 }
 .header-collapsible{
     grid-area: header-collapsible;
+   
     
 }
 .header-collapsible ul{
@@ -113,8 +114,7 @@ header{
     display:none;
 }
 .header-bell{
-    grid-area:header-bell;
-    
+    grid-area:header-bell;  
     justify-self:end;
 }
 .header-bell--desktop-icons{

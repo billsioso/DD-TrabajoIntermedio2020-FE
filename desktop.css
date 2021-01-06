@@ -20,32 +20,60 @@
     }
 
     header ul li{
-        padding:0.5rem;
+        padding: 0 0.5rem;
+        
+        
     }
     header ul li a{
         color: #FFF;
         font-size:14px;
         font-weight: 600;
+        
     }
 
     .header-octocat{
         justify-self: flex-start;
+        
         display: flex;
     }
     .header-octocat form{
-        display:flex;
+        padding: 0.1rem;
+        display:flex;   
+        border: 1px solid #444D56;
+        border-radius: 10px;
+        width: 272px;
+        height: 30px;
+        margin-left:1rem;
     }
+    .header-octocat form input{
+        background: var(--black);
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        color: #fff;
+        width: 100%;
+        padding:0 0.7rem;
+    }
+    .header-octocat form img{
+        margin-right:0.5rem;
+    }
+    
     .header-collapsible{
         display: flex;
     }
     .header-collapsible ul{
-        display:flex
+        display:flex;
+        align-items:center;
+        height: 100%;
     }
     .header-bell{
         display: flex;
     }
     .header-bell--desktop-icons{
         display:flex;
+    }
+    .header-bell--desktop-icons img{
+        border-radius: 50%;
     }
     
     .collapsible-icon{
