@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 770px) {
 
     .desktop-main-view{
         display: flex;
@@ -21,6 +21,8 @@
 
     header ul li{
         padding: 0 0.5rem;
+        padding-bottom:0.4rem;
+        flex-shrink:0;
         
         
     }
@@ -43,7 +45,7 @@
         border-radius: 10px;
         width: 272px;
         height: 30px;
-        margin-left:1rem;
+        
     }
     .header-octocat form input{
         background: var(--black);
@@ -68,6 +70,7 @@
     }
     .header-bell{
         display: flex;
+        
     }
     .header-bell--desktop-icons{
         display:flex;
@@ -139,7 +142,8 @@
     } 
     
     footer ul li{
-        margin: 0 2rem;
+        margin: 0 1rem;
+        flex-shrink: 0;
         
     }
 
