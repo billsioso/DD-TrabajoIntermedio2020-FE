@@ -133,7 +133,7 @@ header{
 
 
 svg{
-    margin-right: 1rem;
+    margin-right: 0.5rem;
 }
 .svg-blanco {
     fill:white;
@@ -148,8 +148,11 @@ svg{
     grid-template-rows: repeat(2,1fr);
     gap: 1rem;
 }
-.stars-counter{
-  display:flex;
+.stars-and-fork-counter{
+    display: flex;
+    flex-shrink: 0;
+    font-size: 14px;
+
     
 }
 .forward-slash{

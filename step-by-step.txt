@@ -99,3 +99,5 @@
 
 36) problemas con que no me haga wrap to nextline en profile section (2 stars and 0 forks) y lo mismo me estaría pasando en desktop con 
     sidenavbar section.
+
+37) (2 stars and 0 forks do not collapse anymore) I used flex-shrink:0;
