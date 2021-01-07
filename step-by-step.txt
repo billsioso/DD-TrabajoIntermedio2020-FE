@@ -96,3 +96,6 @@
 34) round-corners class (I should make one)
 35) header version 2.0 finished . I also added svg to the sidenavbar. in original github page the li collapse in a menu when the screen is not
     wide enough 
+
+36) problemas con que no me haga wrap to nextline en profile section (2 stars and 0 forks) y lo mismo me estaría pasando en desktop con 
+    sidenavbar section.
