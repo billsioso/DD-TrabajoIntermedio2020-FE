@@ -31,7 +31,7 @@ a{
 }
 h1{
     font-size:16px;
-    margin: 0;
+    margin:0 0 1rem 0;
     display: flex;
     align-items:center;
     
@@ -165,10 +165,14 @@ svg{
     overflow-x:auto;
     overflow-y:hidden;
     background:var(--grey-1);
-    
+    font-size: 14px;
+    flex-shrink: 0;
 }
 .side-navbar-section ul li a svg{
     display: none;
+}
+.side-navbar-section ul li{
+    flex-shrink: 0;
 }
 
 .file-navigation-section{
