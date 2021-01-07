@@ -141,13 +141,14 @@ svg{
 }
 
 .side-navbar-section{
-    display: flex;
-    padding:0 1rem 1rem 1rem;
-    height: 48px;
+    display: flex; 
     overflow-x:auto;
     overflow-y:hidden;
     background:var(--grey-1);
     
+}
+.side-navbar-section ul li a svg{
+    display: none;
 }
 
 .file-navigation-section{
