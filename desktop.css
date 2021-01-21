@@ -115,12 +115,21 @@
     }
     .file-navigation-section-left-side--mobile-hidden{
         display: flex;
+        align-items: center;
     }
-    .repository-content-section{
-        
-        padding: 1rem;
-        
+    .file-navigation-section-left-side--mobile-hidden a{
+        margin-left: 0.5rem;
     }
+    .file-navigation-section-right-side-mobile-only-button{
+        display:none;
+    }
+    .file-navigation-section-right-side-desktop-only-buttons{
+        display:flex;
+    }
+    .file-navigation-section-right-side-desktop-only-buttons button{
+        margin-left:0.5rem;
+    }
+    
 
     .readme-section{
         border-radius:10px;

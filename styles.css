@@ -70,7 +70,7 @@ ul{
     border:1px solid rgba(27, 31, 35, 0.15);
     border-radius: 6px;
     background: var(--grey-1);
-    padding: 3px 12px;
+    padding: 7px 12px;
     display: flex;
     justify-content:center;
     align-items: center;  
@@ -79,6 +79,10 @@ ul{
 .btn-mobile{
     width: 148px;
     height: 24px;
+}
+.btn-active{
+    background:#2EA44F;
+    color: #fff;
 }
 /*check btn-Unstar and btn-Unwatch, they have the same code*/ /*done*/
 /* I sent the flex positioning to the general btn class*/
@@ -197,9 +201,12 @@ svg{
 .file-navigation-section-left-side--mobile-hidden{
     display:none;
 }
+.file-navigation-section-right-side-desktop-only-buttons{
+    display:none;
+}
 
 .repository-content-section{
-    padding: 1rem;
+    padding: 0 1rem 1rem 1rem;
 }
 .repository-content-header{
     display: flex;

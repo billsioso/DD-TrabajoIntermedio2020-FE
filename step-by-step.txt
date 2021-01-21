@@ -105,3 +105,4 @@
 39) I can't believe it.. until recently the side-navbar had an overflow-x but now it has changed to a ... collapsible button.
 40) working with repository-content-header. Trying to position the items exactly the way they are in the original page. I had to add some margin to
     the svg.
+41) working with file navigation buttons (adding, positioning, editing)
