@@ -102,3 +102,6 @@
 
 37) (2 stars and 0 forks do not collapse anymore) I used flex-shrink:0;
 38) I did the same with side-navbar section (flex shrink to both the li item and the container)
+39) I can't believe it.. until recently the side-navbar had an overflow-x but now it has changed to a ... collapsible button.
+40) working with repository-content-header. Trying to position the items exactly the way they are in the original page. I had to add some margin to
+    the svg.

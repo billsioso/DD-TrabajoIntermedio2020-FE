@@ -63,7 +63,7 @@ ul{
 }
 .side-navbar-section li{
     display: flex;
-    padding:0 1rem;    
+    padding:0.5rem 1rem;    
     
 }
 .btn{
@@ -93,6 +93,10 @@ ul{
 }
 .btn--file-navigation{
     padding: 5px 1rem;
+    
+}
+.btn--file-navigation svg{
+    margin-right:0;
 }
 /*check btn-Unstar and btn-Unwatch, they have the same code*/
 
@@ -138,6 +142,9 @@ svg{
 .svg-blanco {
     fill:white;
 }
+.svg-grey{
+    fill:var(--grey-3);
+}
 .profile-section{
     padding:1rem ;
     background:var(--grey-1);
@@ -167,9 +174,13 @@ svg{
     background:var(--grey-1);
     font-size: 14px;
     flex-shrink: 0;
+    
 }
 .side-navbar-section ul li a svg{
     display: none;
+}
+.side-navbar-section ul li a{
+    color: var(--black);
 }
 .side-navbar-section ul li{
     flex-shrink: 0;
@@ -196,9 +207,31 @@ svg{
     
     display: flex;
     align-items: center;
-    justify-content: space-around;
-
+    
 }
+.repository-content--leftside img, .repository-content--leftside span {
+    margin-right:0.5rem;
+}
+.repository-content--leftside button{
+    background:transparent;
+    border:none;
+    padding: 0;
+    background-color: rgba(27, 31, 35, 0.15);
+    
+}
+.repository-content--leftside button p {
+    
+    line-height:0.9rem;
+    margin:0;
+    padding:0 0.3rem;  
+    
+}
+.repository-content--rightside svg{
+    margin-left:0.5rem;
+    
+}
+
+
 .repository-content-body{
     display: flex;
     justify-content:center;

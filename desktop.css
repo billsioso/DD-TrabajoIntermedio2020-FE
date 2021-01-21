@@ -84,15 +84,14 @@
     }
 
     .profile-section{
-        
-            
+        padding-right: 2rem;
+        padding-left: 2rem;         
         display: flex;
         justify-content: space-between;
     }
     .profile-action-buttons{
         display: flex;
-        flex-direction:row-reverse;
-           
+        flex-direction:row-reverse;      
     }
     
     
@@ -102,7 +101,7 @@
 
     .side-navbar-section{
         
-        padding: 1rem;   
+        padding: 0 1rem;   
     }
     .side-navbar-section ul li a svg{
         display:inline;
