@@ -113,6 +113,9 @@
         
         padding: 1rem;
     }
+    .file-navigation-section-left-side--mobile-hidden{
+        display: flex;
+    }
     .repository-content-section{
         
         padding: 1rem;

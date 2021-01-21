@@ -191,6 +191,12 @@ svg{
     justify-content:space-between;
     padding:1rem;
 }
+.file-navigation-section-left-side{
+    display: flex;
+}
+.file-navigation-section-left-side--mobile-hidden{
+    display:none;
+}
 
 .repository-content-section{
     padding: 1rem;
