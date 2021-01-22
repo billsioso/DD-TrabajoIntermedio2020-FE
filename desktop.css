@@ -5,11 +5,12 @@
     }
     .desktop-leftside{
         width: 80%;
-        padding: 1rem;
+        padding: 1rem 0 1rem 1rem;
     }
     .desktop-rightside{
         padding-right:1rem;
     }
+    
     
     header{
         border: 1px solid black;
@@ -98,15 +99,22 @@
     }
     .button-unwatch-desktop-added-part{
         display: flex;
-        height:24px;
+        height:1.7rem;
         border-radius: 0 6px 6px 0;
         background-color: #fff;
     }
     .button-unwatch-border-radius{
         border-radius: 6px 0 0 6px;
     }
+    .btn-mobile{
+        width: 7rem;
+        height: 1.7rem;
+    }
     
     .stars-counter{
+        display:none;
+    }
+    .stars-and-fork-counter{
         display:none;
     }
 

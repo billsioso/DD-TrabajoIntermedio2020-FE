@@ -107,3 +107,6 @@
     the svg.
 41) working with file navigation buttons (adding, positioning, editing)
 42) adding (unwatch, unstar,forks)button appareance "desktop view".
+    I have been using the same class for ".button-unwatch-desktop btn-Unstar" upgrade this code later.
+43) version 3.0 mobile and desktop finished.
+    to do for next upgrade: footer (there's something wrong with it), colors, variables, improve class names .

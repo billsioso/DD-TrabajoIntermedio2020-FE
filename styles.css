@@ -165,9 +165,10 @@ svg{
 .stars-and-fork-counter{
     display: flex;
     flex-shrink: 0;
-    font-size: 14px;
-
-    
+    font-size: 14px;   
+}
+.fork-button-desktop-only{
+    display:none;
 }
 .forward-slash{
     color: var(--grey-4);
