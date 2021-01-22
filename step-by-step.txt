@@ -106,3 +106,4 @@
 40) working with repository-content-header. Trying to position the items exactly the way they are in the original page. I had to add some margin to
     the svg.
 41) working with file navigation buttons (adding, positioning, editing)
+42) adding (unwatch, unstar,forks)button appareance "desktop view".

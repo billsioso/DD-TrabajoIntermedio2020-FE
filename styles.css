@@ -95,6 +95,9 @@ ul{
     grid-row-start:2;
     
 }
+.button-unwatch-desktop-added-part{
+    display:none;
+}
 .btn--file-navigation{
     padding: 5px 1rem;
     
