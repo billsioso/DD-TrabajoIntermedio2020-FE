@@ -113,3 +113,6 @@
 
 44) cursor pointer added;
 45) working with the footer. I had to place the github svg as a list item and merge the two unordered list into one. Desktop footer fixed.
+46) hahaa , I was having trouble with adding  border bottom(as a :hover) of a button because it was moving the rest of the page. 
+I found out that I could add a transparent border to already take that space so that when it is hovered on, it takes the same space.
+result: nothing moves, everything is perfect ;). (side-navbar-section , :hover)

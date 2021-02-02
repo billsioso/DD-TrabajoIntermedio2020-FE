@@ -127,6 +127,14 @@
         margin-right:0.5rem;
         padding-top: 0.2rem;
     }
+    .side-navbar-section ul li{
+        
+        border-bottom: 0.1px solid transparent;
+    }
+    .side-navbar-section ul li:hover{
+        
+        border-bottom: 0.1px solid var(--grey-3);
+    }
 
     .file-navigation-section{
         
