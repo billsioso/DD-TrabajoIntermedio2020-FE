@@ -152,6 +152,10 @@ svg{
 .svg-blanco {
     fill:white;
 }
+.svg-blanco:hover {
+    fill: var(--grey-3);
+}
+
 .svg-grey{
     fill:var(--grey-3);
 }
@@ -337,6 +341,7 @@ footer{
 }
 
 footer ul{
+    
     flex-wrap:wrap;
     padding:0;
     margin:0;

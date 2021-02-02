@@ -33,12 +33,18 @@
         font-weight: 600;
         
     }
+    header ul li a:hover{
+        color: var(--grey-3);
+        
+        
+    }
 
     .header-octocat{
         justify-self: flex-start;
         
         display: flex;
     }
+    
     .header-octocat form{
         padding: 0.1rem;
         display:flex;   
