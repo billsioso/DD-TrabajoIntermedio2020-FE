@@ -75,6 +75,9 @@ ul{
     justify-content:center;
     align-items: center;  
 }
+.btn:hover{
+  cursor: pointer;
+}
 
 .btn-mobile{
     width: 148px;
