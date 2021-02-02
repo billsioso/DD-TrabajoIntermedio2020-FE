@@ -112,3 +112,4 @@
     to do for next upgrade: footer (there's something wrong with it), colors, variables, improve class names , desktop effects .
 
 44) cursor pointer added;
+45) working with the footer. I had to place the github svg as a list item and merge the two unordered list into one. Desktop footer fixed.

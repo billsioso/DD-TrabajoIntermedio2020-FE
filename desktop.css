@@ -167,11 +167,16 @@
     }
 
     footer{
-        display:flex;
-        justify-content:space-between;
-        padding: 1rem;
+        
         
     }
+    footer ul{
+        justify-content: space-between;
+        display:flex;
+        align-items:center;
+        
+    }
+    
     .octicon-footer{
         display:flex;
     } 
