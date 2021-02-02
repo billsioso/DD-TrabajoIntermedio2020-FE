@@ -155,6 +155,13 @@ svg{
 .svg-grey{
     fill:var(--grey-3);
 }
+.svg-purple{
+    fill: var(--purple);
+}
+.svg-orange{
+    fill: var(--orange);
+}
+
 .profile-section{
     padding:1rem ;
     background:var(--grey-1);
